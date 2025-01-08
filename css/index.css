@@ -263,6 +263,7 @@ outline: 0;
 section h1{
 /* margin: 100px auto 0;    */
 text-align: center;
+color: #fff;
 font-size: 50px;
 margin-top: 50px;
 }
@@ -277,6 +278,8 @@ margin-top: 50px;
 }
 .cards-container:hover{
     box-shadow: 2px 2px 8px white;
+   
+    
 
 }
 .images{
@@ -288,7 +291,6 @@ background-size: cover;
 }
 .images img{
     width:100%;
-
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }

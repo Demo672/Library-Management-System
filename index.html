@@ -4,8 +4,233 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- cdn file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <header>
+        <h1>Website logo</h1>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contects</a></li>
+                <li><a  id="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>    
+    <aside>
+
+<div class="container">
+    <div class="select-btn">
+        <span class="btn-text">Select book</span>
+        <span class="arrow-dwn">
+            <i class="fa-solid fa-chevron-down"></i>
+        </span>
+    </div>
+
+    <div class="list-items">
+        <li class="item">
+            <span class="checkbox">
+                <i class="fa-solid fa-check check-icons"></i>
+            </span class ="item-text">HTML<span>
+            </span>
+        </li>
+
+        <li class="item">
+            <span class="checkbox">
+                <i class="fa-solid fa-check check-icons"></i>
+            </span class ="item-text">CSS<span>
+            </span>
+        </li>
+
+        <li class="item">
+            <span class="checkbox">
+                <i class="fa-solid fa-check check-icons"></i>
+            </span class ="item-text">JAVA<span>
+            </span>
+        </li>
+
+        <li class="item">
+            <span class="checkbox">
+                <i class="fa-solid fa-check check-icons"></i>
+            </span class ="item-text">HTML<span>
+            </span>
+        </li>
+
+        <li class="item">
+            <span class="checkbox">
+                <i class="fa-solid fa-check check-icons"></i>
+            </span class ="item-text">CSS<span>
+            </span>
+        </li>
+        
+        <li class="item">
+            <span class="checkbox">
+                <i class="fa-solid fa-check check-icons"></i>
+            </span class ="item-text">JAVA<span>
+            </span>
+        </li>
+
+    </div>
     
+
+</div>
+    </aside>
+    <main>
+       <section>
+        <h1>Library Management system</h1>
+       </section>
+       <div class="main-div">
+       <div class="cards-container">
+        <div class="images">
+            <img src="images/book1.jpg" alt="">
+        </div>
+        <div class="title">
+            <h2>Title Name</h2>
+            <p>Lorem ipsum dolor, adipisicing elit. Nam, quasi.</p>
+            <button class="buynow-button" onclick="congrats()">Buy Now</button>
+        <script>
+           
+        </script>
+        </div>
+       </div>
+
+       <div class="cards-container">
+        <div class="images">
+            <img src="images/book2.jpg" alt="">
+        </div>
+        <div class="title">
+            <h2>Title Name</h2>
+            <p>Lorem ipsum dolor, adipisicing elit. Nam, quasi.</p>
+            <button class="buynow-button" onclick="congrats()">Buy Now</button>
+        </div>
+       </div>
+
+       <div class="cards-container">
+        <div class="images">
+            <img src="images/book3.jpg" alt="">
+        </div>
+        <div class="title">
+            <h2>Title Name</h2>
+            <p>Lorem ipsum dolor, adipisicing elit. Nam, quasi.</p>
+            <button class="buynow-button" onclick="congrats()">Buy Now</button>
+        </div>
+       </div>
+
+       <div class="cards-container">
+        <div class="images">
+            <img src="images/book4.png" alt="">
+        </div>
+        <div class="title">
+            <h2>Title Name</h2>
+            <p>Lorem ipsum dolor, adipisicing elit. Nam, quasi.</p>
+            <button class="buynow-button" onclick="congrats()">Buy Now</button>
+        </div>
+       </div>
+
+       <div class="cards-container">
+        <div class="images">
+            <img src="images/book5.jpg" alt="">
+        </div>
+        <div class="title">
+            <h2>Title Name</h2>
+            <p>Lorem ipsum dolor, adipisicing elit. Nam, quasi.</p>
+            <button class="buynow-button" onclick="congrats()">Buy Now</button>
+        </div>
+       </div>
+
+       <div class="cards-container">
+        <div class="images">
+            <img src="images/book6.jpg" alt="">
+        </div>
+        <div class="title">
+            <h2>Title Name</h2>
+            <p>Lorem ipsum dolor, adipisicing elit. Nam, quasi.</p>
+            <button class="buynow-button" onclick="congrats()">Buy Now</button>
+        </div>
+       </div>
+
+       <div class="cards-container">
+        <div class="images">
+            <img src="images/book7.jpg" alt="">
+        </div>
+        <div class="title">
+            <h2>Title Name</h2>
+            <p>Lorem ipsum dolor, adipisicing elit. Nam, quasi.</p>
+            <button class="buynow-button" onclick="congrats()">Buy Now</button>
+        </div>
+       </div>
+
+       <div class="cards-container">
+        <div class="images">
+            <img src="images/book8.jpg" alt="">
+        </div>
+        <div class="title">
+            <h2>Title Name</h2>
+            <p>Lorem ipsum dolor, adipisicing elit. Nam, quasi.</p>
+            <button class="buynow-button" onclick="congrats()">Buy Now</button>
+        </div>
+       </div>
+       </div>
+
+       <div class="popup">
+       
+        <div class="popup-content">
+            <h1>Admin login</h1>
+            <i id="close" class="fa-solid fa-xmark"></i>
+             <label for="username">username</label>
+            <input type="text"id="username" name="username" placeholder="Enter username" required>
+            <label for="username">password</label>
+            <input type="password" id="password" name="password" placeholder="Enter password" required>
+            <button class="login-button" onclick="getInfo()" >Login</button><br>
+        </div>
+       
+    </div>
+
+    </main>
+    <footer>
+        <div class="footer-div">
+            <div class="box">
+                <img src="images/logo.svg" alt="images">
+                <p>Ever wanted to buy a book but could not because it was too expensive? worry not! because Bookchor is here! Bookchor, these days in news,is being called as the Robinhood of the world of books.</p>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="box">
+                <h4>Our Links</h4>
+                <p>About Us</p>
+                <p>Contact Us</p>
+                <p>Blogs</p>
+                <p>Bookchor Wholesale</p>
+                <p>Sell with Us</p>
+            </div>
+            <div class="box">
+                <h4>Quick Links</h4>
+                <p>Track Order</p>
+                <p>FAQs</p>
+                <p>Privacy Policy</p>
+                <p>Terms & Conditions</p>
+            </div>
+            <div class="box">
+                <h4>Support</h4>
+                <p>call Call :
+                    90501 11218</p>
+                    <p>
+                        emailEmail :
+                        cs@bookchor.com
+                        </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
 </body>
 </html>

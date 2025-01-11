@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Book</title>
+    <link rel="stylesheet" href="css/book_form.css">
+</head>
+<body onload="display_list()">
+    <div id="main">
+        <div id="form">
+            <h2>Add a New Book</h2>
+            <form>
+                <label for="title">Book Title:</label><br>
+                <input type="text" id="title" name="title" required><br><br>
+        
+                <label for="author">Author:</label><br>
+                <input type="text" id="author" name="author" required><br><br>
+                
+                <label for="genre">Genre:</label><br>
+                <input type="text" id="genre" name="genre" required><br><br>
+        
+      
+                <button onclick="book_submit(event)">Add Book</button>
+            </form>
+        </div>
+        <div id="list">
+            <h2>Currently available Books:</h2>
+            <ul id="bookList">
+            
+            </ul>
+        </div>
+
+</div>
+
+    <script src="js/book_form.js"></script>
+</body>
+</html>

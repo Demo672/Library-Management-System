@@ -245,7 +245,7 @@ background-color: #555;
 main{
 grid-area: main;
 /* background-color: cadetblue; */
-background: url(./images/gallary.jpg);
+background: url(../images/gallary.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -323,7 +323,7 @@ grid-area: footer;
 background-color: #333;
 color: white;
 padding: 1em;
-height:;
+/* height:; */
 }
 .footer-div{
 

@@ -33,3 +33,10 @@ items.forEach(item =>{
         }
     });
 })
+
+document.querySelectorAll('.buynow-button').forEach(button => {
+    button.addEventListener('click', function() {
+        
+        window.location.href = 'congratulation.html';
+    });
+});
